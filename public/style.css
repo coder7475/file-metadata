@@ -1,16 +1,11 @@
 /****** Main Styling ******/
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   color: #222;
-  background-color: #ECF0F1;
+  background-color: #ecf0f1;
   text-align: center;
-}
-
-.container {
-  padding: 0;
-  margin-top: 40px;
 }
 
 .footer {
@@ -18,7 +13,7 @@ body {
 }
 
 a {
-  color: #2574A9;
+  color: #2574a9;
 }
 
 input {
@@ -32,11 +27,49 @@ input#button {
 }
 
 .view {
-  position:relative;
+  position: relative;
   margin: auto;
   margin-top: 40px;
-  border: 1px  solid  #aaa;
+  border: 1px solid #aaa;
   padding: 20px;
   width: 60%;
   min-width: 400px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 500px;
+  margin: 60px auto;
+}
+.container h1 {
+  text-align: center;
+  color: black;
+}
+form {
+  background-color: white;
+  padding: 30px;
+}
+form .input-group {
+  margin-bottom: 15px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+form input {
+  padding: 12px 20px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+.submit-btn {
+  width: 100%;
+  border: none;
+  background: rgb(37, 83, 3);
+  font-size: 18px;
+  color: white;
+  border-radius: 3px;
+  padding: 20px;
+  text-align: center;
 }
